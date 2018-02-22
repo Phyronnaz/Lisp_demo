@@ -2,6 +2,7 @@
 #include <iostream>
 
 #include "environment.h"
+#include "object.h"
 
 std::shared_ptr<Environment> Environment::CreateChildEnv()
 {

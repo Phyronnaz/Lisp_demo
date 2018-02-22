@@ -21,7 +21,10 @@ bool subrp(const std::string& s)
     {
         return true;
     }
-    assert(false);
+    else
+    {
+	return false;
+    }
 }
 
 Object apply_subr(const std::string& s, const std::vector<Object>& lvals)

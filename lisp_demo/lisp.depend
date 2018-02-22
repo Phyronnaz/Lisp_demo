@@ -1,0 +1,21 @@
+subr.o: subr.cpp subr.h object.h
+lisp.yy.o: lisp.yy.cpp object.h lisp.tab.h
+eval.o: eval.cpp core.h apply.h object.h environment.h
+read.o: read.cpp read.h object.h
+lisp.tab.o: lisp.tab.cpp object.h
+core.o: core.cpp core.h environment.h
+toplevel.o: toplevel.cpp toplevel.h core.h object.h
+set_q.o: set_q.cpp object.h environment.h core.h
+environment.o: environment.cpp environment.h
+cell.o: cell.cpp cell.h
+object.o: object.cpp object.h cell.h
+apply.o: apply.cpp apply.h core.h subr.h object.h environment.h
+core.o: core.h
+lisp.tab.o: lisp.tab.h
+toplevel.o: toplevel.h core.h
+cell.o: cell.h
+object.o: object.h
+apply.o: apply.h
+subr.o: subr.h
+environment.o: environment.h
+read.o: read.h

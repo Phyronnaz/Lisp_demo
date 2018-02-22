@@ -1,6 +1,6 @@
 #include <iostream>
-#include "toplevel/toplevel.h"
-#include "Parser/read.h"
+#include "toplevel.h"
+#include "read.h"
 
 using namespace std;
 

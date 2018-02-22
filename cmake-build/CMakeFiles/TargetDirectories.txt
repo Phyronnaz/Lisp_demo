@@ -1,9 +1,0 @@
-/home/victor/tmp/Lisp/cmake-build/CMakeFiles/rebuild_cache.dir
-/home/victor/tmp/Lisp/cmake-build/CMakeFiles/lisp_run.dir
-/home/victor/tmp/Lisp/cmake-build/CMakeFiles/edit_cache.dir
-/home/victor/tmp/Lisp/cmake-build/lisp/CMakeFiles/rebuild_cache.dir
-/home/victor/tmp/Lisp/cmake-build/lisp/CMakeFiles/lisp.dir
-/home/victor/tmp/Lisp/cmake-build/lisp/CMakeFiles/edit_cache.dir
-/home/victor/tmp/Lisp/cmake-build/lisp_tests/CMakeFiles/rebuild_cache.dir
-/home/victor/tmp/Lisp/cmake-build/lisp_tests/CMakeFiles/lisp_test.dir
-/home/victor/tmp/Lisp/cmake-build/lisp_tests/CMakeFiles/edit_cache.dir

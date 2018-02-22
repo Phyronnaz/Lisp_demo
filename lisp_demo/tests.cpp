@@ -1,8 +1,8 @@
 #include <iostream>
 
-#include "core/core.h"
-#include "Parser/read.h"
-#include "Object/object.h"
+#include "core.h"
+#include "read.h"
+#include "object.h"
 
 #define PAUSE() (getchar())
 
@@ -37,5 +37,11 @@ int main()
     TEST(subr, multiply, (* 3 5), 15)
     TEST(subr, divide, (/ 6 3), 2)
     TEST(keywords, quote, (quote 1), 1)
+    TEST(keywords, if, (if 1 2 3), 2)
+    TEST(keywords, if, (if () 2 3), 3)
+    TEST(keywords, progn, (progn (+ 1 2) (printenv) (+ 1 2)), 3)
+    TEST(keywords, printenv, (printenv), ())
+    TEST(keywords, lambda, ((lambda (n) (+ 1 n)) 2), 3)
+    TEST(keywords, lambda, ((lambda (n x) (+ (* n 2) x)) 4 5), 13)
     return 0;
 }

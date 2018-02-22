@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall -Wno-long-long -pedantic -gdwarf-3   CMakeFiles/lisp_test.dir/tests.cpp.o  -o lisp_test ../lisp/liblisp.a 

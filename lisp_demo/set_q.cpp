@@ -9,7 +9,7 @@ bool is_setq(Object object, const std::shared_ptr<Environment>& env)
     if (listp(object))
     {
         Object car_obj = car(object);
-        if (stringp(car_obj))
+        if (symbolp(car_obj))
         {
             if (Object_to_string(car_obj) == "setq")
             {

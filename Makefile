@@ -16,7 +16,7 @@ make_build/.dirstamp:
 	mkdir make_build
 	touch $@
 
-lisp:
+lisp: make_build/.dirstamp
 	$(MAKE) -C lisp all
 
 lisp_run: main.cpp lisp
